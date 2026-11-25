@@ -1,0 +1,12 @@
+.page {
+  min-height: 100vh;
+  padding: 80px 20px;
+  background: #28243B;
+  color: #F5EDFF;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.link {
+  color: #D9C4FF;
+}

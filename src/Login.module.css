@@ -1,0 +1,104 @@
+.loginPage {
+  min-height: 100vh;
+  padding: 40px 20px;
+  background: #28243B;
+  color: #F5EDFF;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  margin-bottom: 30px;
+  color: #D9C4FF;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.backLink {
+  margin-top: 20px;
+  color: #B9ADC9;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.card {
+  width: 100%;
+  max-width: 400px;
+  padding: 30px;
+  background: #302A45;
+  border: 1px solid #514565;
+  border-radius: 12px;
+}
+
+.card h1 {
+  margin: 0 0 10px 0;
+  text-align: center;
+  font-size: 28px;
+}
+
+.desc {
+  margin: 0 0 20px 0;
+  color: #B9ADC9;
+  text-align: center;
+  font-size: 14px;
+}
+
+.field {
+  margin-bottom: 15px;
+}
+
+.field label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #E4D9F5;
+}
+
+.field input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #514565;
+  border-radius: 6px;
+  background: #28243B;
+  color: #F5EDFF;
+  box-sizing: border-box;
+}
+
+.error {
+  margin: 0 0 10px 0;
+  color: #ff8a8a;
+  font-size: 14px;
+}
+
+.submitBtn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 6px;
+  background: #D9C4FF;
+  color: #28243B;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.submitBtn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.switchText {
+  margin-top: 20px;
+  text-align: center;
+  color: #B9ADC9;
+  font-size: 14px;
+}
+
+.link {
+  color: #D9C4FF;
+  cursor: pointer;
+  text-decoration: underline;
+}
